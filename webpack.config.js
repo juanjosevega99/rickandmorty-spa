@@ -16,7 +16,7 @@ module.exports = {
         test: /\.js?$/,
         exclude: /nodule_modules/,
         use: {
-          loaders: "babel-loader",
+          loader: "babel-loader",
         },
       },
     ],
