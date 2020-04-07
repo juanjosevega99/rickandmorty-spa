@@ -3,20 +3,43 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
-  color: #3c484e;
+  background-color: #171c28;
+  color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
 }
 
 .Header-main {
+  background-color: #292e3a;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .Header a {
+  display: block;
+  font-size: 0.8em;
   text-decoration: none;
-  color: #15302C;
+  color: #FFFFFF;
+}
+
+.Header-home a {
+  font-size: 1.0em;
+
+  background-color: #70118dde;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.Header-nav a {
+  font-size: 1.0em;
+
+  display:inline-block
 }
 
 .Main {
@@ -27,17 +50,43 @@ body {
 }
 
 .Characters {
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1.5rem;
-  grid-row-gap: 1.5em;
+  grid-template-columns: repeat(auto-fill, 320px);
+
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* grid-gap: 1.5rem;
+  grid-row-gap: 1.5em; */
   display: grid;
 }
 
+.Characters-item {
+  border-radius: 10px;
+  background-color: #292e3a;
+  color: #ffffff;
+  padding: 10px;
+  width: 304px;
+
+  /* grid-template-columns: repeat(3, 1fr);
+  border-radius: 10px;
+  background-color: #292e3a;
+  color: #ffffff;
+  padding: 10px;
+  width: 304px; */
+}
+
 .Characters-inner {
+  border-radius: 10px;
+  background-color: #292e3a;
+  color: #ffffff;
+  padding: 10px;
+  width: 304px;
+  
+
+  /* color: red;
+
   grid-template-columns: 1fr 2fr;
   grid-gap: 1.5rem;
   grid-row-gap: 1.5em;
-  display: grid;
+  display: grid; */
 }
 
 .Characters-card {
@@ -45,9 +94,14 @@ body {
   box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
   border-radius: 5px;
   margin: 0 0 20px 0;
-  display: block;
+  /* display: block; */
   animation-duration: 2s;
   animation-name: fade;
+}
+
+.Characters-card a {
+  color: #FFFFFF;
+  
 }
 
 .Characters-card img {
@@ -69,7 +123,7 @@ body {
   margin: 20px;
 }
 
-.Characters-item {
+/* .Characters-item {
   text-decoration: none;
   box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
   border-radius: 5px;
@@ -77,7 +131,7 @@ body {
   display: block;
   animation-duration: 2s;
   animation-name: fade;
-}
+} */
 
 .Characters-item img {
   width: 100%;
