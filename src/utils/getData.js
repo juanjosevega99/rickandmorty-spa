@@ -1,4 +1,4 @@
-const API = "http://rickandmortyapi.com/api/character/";
+const API = "https://rickandmortyapi.com/api/character/";
 
 const getData = async (id) => {
   const apiURL = id ? `${API}${id}` : API;
