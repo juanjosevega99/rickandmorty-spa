@@ -2,7 +2,7 @@
 SPA of flash cards with API of Rick and Morty
 
 ## Stack
-This app is created with pure JavaScript and Babel to compile.
+This app is created with pure JavaScript and Babel.
 
 ## Installation
 
