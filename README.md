@@ -1,6 +1,8 @@
 # Rick and Morty
 SPA of flash cards with API of Rick and Morty
 
+![](https://images-side-projects.s3.amazonaws.com/page-rick-morty.png)
+
 ## Stack
 This app is created with pure JavaScript and Babel.
 
